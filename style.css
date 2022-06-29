@@ -31,10 +31,10 @@ body > div {
   background-color: #F4F3F8;
   width: 100%;
   height: 85px;
-  position: absolute;
-  left: 0%;
+  /* position: absolute; */
+  /* left: 0%;
   right: 0%;
-  top: 0%;
+  top: 0%; */
 }
 
 .logo_home {
@@ -87,8 +87,8 @@ body > div {
 }
 
 .banner {
-  position: absolute;
-  top: 85px;
+  /* position: absolute; */
+  /* top: 85px; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -143,8 +143,8 @@ body > div {
   gap: 20px;
   width: 100%;
   height: 309px;
-  position: absolute;
-  top: 636px;
+  /* position: absolute; */
+  /* top: 636px; */
   background-color: #F8F8F8;
 }
 
@@ -223,8 +223,8 @@ body > div {
 .aboutus {
   width: 100%;
   height: 53.83vw;
-  position: absolute;
-  top: 945.9px;
+  /* position: absolute; */
+  /* top: 945.9px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -290,7 +290,7 @@ body > div {
   gap: 10px;
 }
 .about-text-content > h3 {
-  width: 51.6%;
+  width: 60%;
   height: 4.5vw;
   line-height: 120%;
   font-size: 24.53px;
@@ -314,9 +314,6 @@ body > div {
 
 .productDiv {
   width: 100%;
-  height: 42.57vw;
-  position: absolute;
-  top: 1681.17px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -334,12 +331,11 @@ body > div {
 
 .productHolder {
   width: 88.89%;
-  height: 36.6vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: auto 0;
+  margin: 70.281px 0;
   color: #3b3b3bf7;
   line-height: 120%;
 }
@@ -367,7 +363,8 @@ body > div {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   margin: auto 0;
 }
@@ -376,16 +373,17 @@ body > div {
   display: flex;
   flex-direction: column;
   width: 22.66%;
-  height: 29.3vw;
+  height: 32vw;
   justify-content: space-between;
   align-items: center;
+  margin: 40px 20px;
 }
 
 .productPicturesBackground{
   background-color: #F8F8F8;
   box-shadow: 0px 2.62152px 5.24304px #00000026;
   border-radius: 0px 43.692px;
-  background-size: 86.21% 17.36vw;
+  background-size: 82.21% 15vw;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -409,13 +407,21 @@ body > div {
   background-image: url('/assets/images/Bitter-kola.png');
 }
 
+.leafygreen {
+  background-image: url('/assets/images/another_veggies.jpg');
+}
+
+.veggies {
+  background-image: url('/assets/images/green_veggies.jpg');
+}
+
 .productTextDescription {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
-  height: 6.9vw;
+  height: 10vw;
   gap: 4px;
   line-height: 120%;
   color: #3b3b3bf7;
@@ -430,7 +436,7 @@ body > div {
 }
 
 .productMainDescription {
-  width: 83.44%;
+  width: 95%;
   font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
@@ -440,8 +446,8 @@ body > div {
 .testimonials {
   width: 100%;
   height: 40.47vw;
-  position: absolute;
-  top: 2262px;
+  /* position: absolute; */
+  /* top: 2262px; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -582,8 +588,8 @@ body > div {
 }
 
 .contact {
-  position: absolute;
-  top: 2814.812px;
+  /* position: absolute; */
+  /* top: 2814.812px; */
   width: 100%;
   height: 34.72vw;
   background-color: #F8F8F8;
@@ -690,8 +696,8 @@ body > div {
   width: 100%;
   background-color: #5461A1;
   height: 42.08vw;
-  position: absolute;
-  top: 3289.078px;
+  /* position: absolute; */
+  /* top: 3289.078px; */
   display: flex;
   flex-direction: row;
   justify-content: center;
