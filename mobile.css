@@ -1,0 +1,415 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/fonts/Inter-Regular.ttf');
+}
+@font-face {
+  font-family: 'Inter_bold';
+  src: url('/assets/fonts/Inter-ExtraBold.ttf');
+  font-weight: bolder;
+}
+@font-face {
+  font-family: 'Inter_semibold';
+  src: url('/assets/fonts/Inter-Bold.ttf');
+  font-weight: bold;
+}
+
+@media only screen and ( max-width: 768px) {
+  
+  .nav_bar {
+    height: 40px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: #f4f3f87c;
+
+  }
+
+  .logo_home {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .navigation {
+    width: 63%;
+  }
+
+  .navigation > p {
+    width: fit-content;
+    text-align: center;
+    margin: auto 5px;
+  }
+
+  .navigation > p > a {
+    font-size: 5pt;
+  }
+
+  .cta-wrapper {
+    width: 13%;
+    height: 5vw;
+  }
+  
+  .cta {
+    font-size: 5pt;
+  }
+
+  .curious {
+    margin: auto 0;
+    height: 30vw;
+    gap: 5px;
+  }
+
+  .banner-text {
+    font-size: 10pt;
+    margin: auto 0;
+    height: fit-content;
+  }
+
+  .curious > .cta-wrapper {
+    width: 50%;
+    margin: auto 0;
+  }
+
+  .credibility {
+    height: 80vw;
+    flex-wrap: wrap;
+    gap: 15%;
+  }
+
+  .credibility > div {
+    width: 35%;
+    height: 34.95vw;
+    gap: 3pt;
+  }
+
+  .image-holder {
+    margin: 0;
+    height: 9.57vw;
+  }
+  
+  .service-title {
+    font-weight: 500;
+    font-size: 11pt;
+    line-height: 120%;
+    width: 81.65%;
+  }
+  
+  .service-description {
+    width: 81.25%;
+    font-weight: 400;
+    font-size: 7pt;
+    line-height: 120%;
+  }
+
+  .aboutus {
+    height: 70vw;
+    justify-content: center;
+  }
+
+  .about-tab {
+    font-size: 18pt;
+  }
+
+  .aboutus > div > p {
+    width: 100%;
+    font-size: 5pt;
+  }
+
+  .about-content {
+    justify-content: space-around;
+    height: 40vw;
+  }
+  
+  .sample-product {
+    width: 33.3%;
+    height: 25vw;
+    background-color: #F8F8F8;
+    box-shadow: 0px 2.62152px 5.24304px #00000026;
+    border-radius: 0px 43.692px;
+    background-image: url('/assets/images/sample_products.png');
+    background-position: center;
+    background-size: 67.35% 80.94%;
+    background-repeat: no-repeat;
+  }
+  
+  .about-text-content {
+    width: 58%;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .about-text-content > h3 {
+    width: 100%;
+    font-size: 10pt;
+    height: fit-content;
+  }
+  .about-text-content > p {
+    width: 100%;
+    font-size: 6pt;
+  }
+  
+  .about-text-content > .cta-wrapper {
+    width: 26.52%;
+    height: 12%;
+  }
+
+  .productDiv {
+    height: 155vw;
+  }
+
+  .productHolder {
+    margin: auto 0;
+    justify-content: space-around;
+    height: 140vw;
+  }
+
+  .productDivTitle {
+    width: 100%;
+    font-weight: 600;
+    font-size: 18pt;
+  }
+  
+  .productDivText {
+    font-size: 5pt;
+    line-height: 120%;
+  }
+
+  .productImageHolder {
+    height: 130vw;
+  }
+
+  .productPictures {
+    width: 40%;
+    margin: auto 0;
+    height: 30vw;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .productPicturesBackground {
+    background-size: 75% 9vw;
+    width: 60%;
+    height: 26.3vw;
+    margin: 0;
+  }
+
+  .productTextDescription {
+    height: 30vw;
+  }
+
+  .productName {
+    font-size: 10pt;
+  }
+  
+  .productMainDescription {
+    font-size: 5pt;
+    line-height: 120%;
+  }
+
+  .testimonials {
+    height: 57vw;
+  }
+  
+  .testimonials > div {
+    height: 40vw;
+  }
+
+  .testimonialHeader {
+    width: 100%;
+  }
+
+  .testimonialTitle {
+    width: fit-content;
+    font-size: 18pt;
+  }
+  
+  .testimonialInfo {
+    width: 100%;
+    font-size: 5pt;
+  }
+  
+  .mainTestimonial {
+    height: 21vw;
+  }
+  
+  .testimonialBody {
+    width: 58%;
+    height: 26vw;
+  }
+  
+  .testimonialBody > div {
+    width: 98%;
+    height: 24vw;
+    margin: auto 0;
+  }
+  
+  .clientPicture {
+    width: 15pt;
+    height: 15pt;
+    background-size: 10pt;
+  }
+  
+  .testimonialText {
+    width: fit-content;
+    height: 78%;
+    justify-content: space-around;
+  }
+  
+  .testimony {
+    font-size: 5pt;
+    line-height: 120%;
+  }
+  
+  .clientName {
+    font-size: 7pt;
+    line-height: 120%;
+  }
+  
+  .clientDetails {
+    font-size: 5pt;
+    line-height: 120%;
+  }
+  
+  .testimonialGraphic {
+    width: 30%;
+    height: 24vw;
+    background-size: 75%;
+  }
+  
+  .contact {
+    height: 57vw;
+  }
+  
+  .contact > div {
+    width: 82%;
+    height: 40vw;
+  }
+  
+  .contact > div > div {
+    width: 98%;
+    height: 36vw;
+  }
+  
+  .contactHeader {
+    width: 100%;
+  }
+  
+  .contactTitle {
+    width: fit-content;
+    font-size: 18pt;
+  }
+
+  .contactText {
+    width: 100%;
+    font-size: 5pt;
+  }
+
+  .contactInfo {
+    width: 80%;
+    justify-content: space-around;
+    height: 28vw;
+  }
+
+  .contactInfo > div {
+    height: 18vw;
+  }
+
+  .contactInfo > div > a {
+    font-size: 5pt;
+  }
+  
+  .contactInfo > div > a > img {
+    width: 12pt;
+    height: 12pt;
+  }
+
+  .footer {
+    height: 75vw;
+  }
+  
+  .footer > div {
+    width: 90%;
+    height: 65vw;
+  }
+
+  .footerContent{
+    height: 40vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .welcomeContent {
+    height: 45vw;
+  }
+
+  .brandLogo {
+    width: 100%;
+    height: 20pt;
+  }
+
+  .welcomeMessage {
+    height: 20vw;
+  }
+  
+  .welcomeMessage > h1 {
+    width: 100%;
+    font-size: 10pt;
+    height: fit-content;
+  }
+
+  .welcomeMessage > p {
+    font-size: 5pt;
+    height: fit-content;
+    line-height: 120%;
+    margin: auto 0;
+  }
+
+  .welcomeContent > .cta-wrapper {
+    width: 50%;
+    height: 6vw;
+  }
+
+  .features {
+    width: 20%;
+    gap: 12px;
+  }
+
+  .socialsFoot  {
+    width: 16%;
+    gap: 12px;
+  }
+
+  .features > h2 {
+    font-size: 10pt;
+  }
+  
+  .features > a {
+    font-size: 6pt;
+    line-height: 120%;;
+  }
+  
+  .socialsFoot > h2 {
+    font-size: 10pt;
+  }
+
+  .Address {
+    width: 16%;
+  }
+  
+  .socialsFoot > a {
+    font-size: 6pt;
+    text-align: center;
+  }
+
+  .Address > a {
+    font-size: 8pt;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .copyright > p {
+    font-size: 10pt;
+  }
+
+}
