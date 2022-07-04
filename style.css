@@ -681,7 +681,7 @@ body > div {
 .footer {
   width: 100%;
   background-color: #5461A1;
-  height: 42.08vw;
+  height: 50vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -690,7 +690,7 @@ body > div {
 
 .footer > div {
   width: 86.8%;
-  height: 30.5vw;
+  height: 42vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -700,12 +700,12 @@ body > div {
 
 .footerContent {
   width: 100%;
-  height: 28.13vw;
+  height: 40vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 24px 0px;
+  padding: 8px 0px;
 }
 
 .welcomeContent {
@@ -714,8 +714,8 @@ body > div {
   justify-content: space-between;
   align-items: flex-start;
   width: 35.52%;
-  height: 24.8vw;
-  gap: 20px;
+  height: 38vw;
+  gap: 10px;
 }
 
 .brandLogo {
@@ -764,7 +764,7 @@ body > div {
 
 .welcomeContent > .cta-wrapper {
   width: 28.73%;
-  height: 70px;
+  height: 38px;
 }
 
 .features {
