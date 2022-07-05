@@ -914,8 +914,8 @@ body > div {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: minmax(min-content, 1fr) 10rem 10rem min-content;
-      grid-template-columns: minmax(-webkit-min-content, 1fr) 10rem 10rem -webkit-min-content;
-      grid-template-columns: minmax(min-content, 1fr) 10rem 10rem min-content;
+  grid-template-columns: minmax(-webkit-min-content, 1fr) 10rem 10rem -webkit-min-content;
+  grid-template-columns: minmax(min-content, 1fr) 10rem 10rem min-content;
   grid-gap: 2rem 5rem;
   margin-bottom: 2rem;
 }

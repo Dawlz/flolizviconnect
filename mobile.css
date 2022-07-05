@@ -476,20 +476,24 @@
     width: 40%;
   }
 
+  .order-modal__item-selection {
+    width: 82%;
+  }
+
   .order-modal__item-selection .labels {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
+    width: 70vw;
+    justify-content: space-around;
   }
   
   
   .order-modal__item-selection .line-item {
-    gap: 2rem 2rem;
-    margin-bottom: 0;
+    gap: 5px;
+    grid-template-columns: 22vw 26vw 26vw 6vw;
   }
   
-  .order-modal__item-selection .line-item select {
+  .order-modal__item-selection .line-item > select {
     font-size: 8pt;
     background-color: white;
     height: 55%;
