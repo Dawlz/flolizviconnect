@@ -259,12 +259,13 @@
 							<div class="line-item" id="line-0">
 								<select name="item" id="">
 									<option value="Please make a selection" selected disabled>Please make a selection</option>
-									<option value="charcoal">Charcoal</option>
+									<option value="Charcoal">Charcoal</option>
 									<option value="Kolanuts">Kolanuts</option>
 									<option value="Bitter-kola">Bitter-kola</option>
 									<option value="Cashew-nuts">Cashew-nuts</option>
 									<option value="Beans">Beans</option>
 									<option value="Green Vegetables">Green Vegetables</option>
+									<option value="Others">Others (Please specify below)</option>
 								</select>
 								<input type="number" min="0" name="quantity" class="quantity" />
 								<input type="number" min="0" name="size" class="quantity" />
@@ -272,7 +273,10 @@
 							</div>
 							<button class="add-line">+</button>
 						</div>
-						
+						<div class="order-modal__input-group order-modal__textarea">
+							<label for="address">Others</label>
+							<textarea name="others" id="others" rows="2" placeholder="Please specify other items, size and quantity"></textarea>
+						</div>
 						<div class="order-modal__input-group order-modal__textarea">
 							<button class="submit">Submit</button>
 						</div>

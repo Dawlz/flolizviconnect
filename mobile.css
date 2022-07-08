@@ -491,6 +491,7 @@
   .order-modal__item-selection .line-item {
     gap: 5px;
     grid-template-columns: 22vw 26vw 26vw 6vw;
+    -ms-grid-columns: 18vw 22vw 24vw 4vw;
   }
   
   .order-modal__item-selection .line-item > select {
