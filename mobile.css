@@ -1,523 +1,442 @@
 @font-face {
-  font-family: 'Inter';
-  src: url('/assets/fonts/Inter-Regular.ttf');
+	font-family: 'Inter';
+	src: url('/assets/fonts/Inter-Regular.ttf');
 }
 @font-face {
-  font-family: 'Inter_bold';
-  src: url('/assets/fonts/Inter-ExtraBold.ttf');
-  font-weight: bolder;
+	font-family: 'Inter_bold';
+	src: url('/assets/fonts/Inter-ExtraBold.ttf');
+	font-weight: bolder;
 }
 @font-face {
-  font-family: 'Inter_semibold';
-  src: url('/assets/fonts/Inter-Bold.ttf');
-  font-weight: bold;
+	font-family: 'Inter_semibold';
+	src: url('/assets/fonts/Inter-Bold.ttf');
+	font-weight: bold;
 }
 
-@media only screen and ( max-width: 768px) {
-  
-  .nav_bar {
-    height: 40px;
-    position: sticky;
-    top: 0px;
-    z-index: 2;
-    background-color: #f4f3f87c;
+@media only screen and (max-width: 768px) {
+	.nav_bar {
+		height: 40px;
+		position: sticky;
+		top: 0px;
+		z-index: 2;
+		background-color: #f4f3f87c;
+	}
 
-  }
+	.logo_home {
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
 
-  .logo_home {
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+	.navigation {
+		width: 63%;
+	}
 
-  .navigation {
-    width: 63%;
-  }
+	.navigation > p {
+		width: fit-content;
+		text-align: center;
+		margin: auto 5px;
+	}
 
-  .navigation > p {
-    width: fit-content;
-    text-align: center;
-    margin: auto 5px;
-  }
+	.navigation > p > a {
+		font-size: 5pt;
+	}
 
-  .navigation > p > a {
-    font-size: 5pt;
-  }
+	.cta-wrapper {
+		width: 13%;
+		height: 5vw;
+	}
 
-  .cta-wrapper {
-    width: 13%;
-    height: 5vw;
-  }
-  
-  .cta {
-    font-size: 5pt;
-  }
+	.cta {
+		font-size: 5pt;
+	}
 
-  .curious {
-    margin: auto 0;
-    height: 30vw;
-    gap: 5px;
-  }
+	.curious {
+		margin: auto 0;
+		height: 30vw;
+		gap: 5px;
+	}
 
-  .banner-text {
-    font-size: 10pt;
-    margin: auto 0;
-    height: fit-content;
-  }
+	.banner-text {
+		font-size: 10pt;
+		margin: auto 0;
+		height: fit-content;
+	}
 
-  .curious > .cta-wrapper {
-    width: 50%;
-    margin: auto 0;
-  }
+	.curious > .cta-wrapper {
+		width: 50%;
+		margin: auto 0;
+	}
 
-  .credibility {
-    height: 80vw;
-    flex-wrap: wrap;
-    gap: 15%;
-  }
+	.credibility {
+		height: 80vw;
+		flex-wrap: wrap;
+		gap: 15%;
+	}
 
-  .credibility > div {
-    width: 35%;
-    height: 34.95vw;
-    gap: 3pt;
-  }
+	.credibility > div {
+		width: 35%;
+		height: 34.95vw;
+		gap: 3pt;
+	}
 
-  .image-holder {
-    margin: 0;
-    height: 9.57vw;
-  }
-  
-  .service-title {
-    font-weight: 500;
-    font-size: 11pt;
-    line-height: 120%;
-    width: 81.65%;
-  }
-  
-  .service-description {
-    width: 81.25%;
-    font-weight: 400;
-    font-size: 7pt;
-    line-height: 120%;
-  }
+	.image-holder {
+		margin: 0;
+		height: 9.57vw;
+	}
 
-  .aboutus {
-    height: 70vw;
-    justify-content: center;
-  }
+	.service-title {
+		font-weight: 500;
+		font-size: 11pt;
+		line-height: 120%;
+		width: 81.65%;
+	}
 
-  .about-tab {
-    font-size: 18pt;
-  }
+	.service-description {
+		width: 81.25%;
+		font-weight: 400;
+		font-size: 7pt;
+		line-height: 120%;
+	}
 
-  .aboutus > div > p {
-    width: 100%;
-    font-size: 5pt;
-  }
+	.aboutus {
+		height: 70vw;
+		justify-content: center;
+	}
 
-  .about-content {
-    justify-content: space-around;
-    height: 50vw;
-  }
-  
-  .sample-product {
-    width: 33.3%;
-    height: 25vw;
-    background-color: #F8F8F8;
-    box-shadow: 0px 2.62152px 5.24304px #00000026;
-    border-radius: 0px 43.692px;
-    background-image: url('/assets/images/sample_products.png');
-    background-position: center;
-    background-size: 67.35% 80.94%;
-    background-repeat: no-repeat;
-  }
-  
-  .about-text-content {
-    width: 58%;
-    height: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-  }
+	.about-tab {
+		font-size: 18pt;
+	}
 
-  .about-text-content > h3 {
-    width: 100%;
-    font-size: 10pt;
-    height: fit-content;
-  }
+	.aboutus > div > p {
+		width: 100%;
+		font-size: 5pt;
+	}
 
-  .about-text-content > p {
-    width: 100%;
-    font-size: 6pt;
-  }
-  
-  .about-text-content > .cta-wrapper {
-    width: 35%;
-    height: 10%;
-  }
+	.about-content {
+		justify-content: space-around;
+		height: 50vw;
+	}
 
-  .productDiv {
-    height: 155vw;
-  }
+	.sample-product {
+		width: 33.3%;
+		height: 25vw;
+		background-color: #f8f8f8;
+		box-shadow: 0px 2.62152px 5.24304px #00000026;
+		border-radius: 0px 43.692px;
+		background-image: url('/assets/images/sample_products.png');
+		background-position: center;
+		background-size: 67.35% 80.94%;
+		background-repeat: no-repeat;
+	}
 
-  .productHolder {
-    margin: auto 0;
-    justify-content: space-around;
-    height: 140vw;
-  }
+	.about-text-content {
+		width: 58%;
+		height: 50vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+	}
 
-  .productDivTitle {
-    width: 100%;
-    font-weight: 600;
-    font-size: 18pt;
-  }
-  
-  .productDivText {
-    font-size: 5pt;
-    line-height: 120%;
-  }
+	.about-text-content > h3 {
+		width: 100%;
+		font-size: 10pt;
+		height: fit-content;
+	}
 
-  .productImageHolder {
-    height: 130vw;
-  }
+	.about-text-content > p {
+		width: 100%;
+		font-size: 6pt;
+	}
 
-  .productPictures {
-    width: 40%;
-    margin: auto 0;
-    height: 30vw;
-    align-items: flex-start;
-    justify-content: space-between;
-  }
+	.about-text-content > .cta-wrapper {
+		width: 35%;
+		height: 10%;
+	}
 
-  .productPicturesBackground {
-    background-size: 75% 9vw;
-    width: 60%;
-    height: 26.3vw;
-    margin: 0;
-  }
+	.productDiv {
+		height: 155vw;
+	}
 
-  .productTextDescription {
-    height: 30vw;
-  }
+	.productHolder {
+		margin: auto 0;
+		justify-content: space-around;
+		height: 140vw;
+	}
 
-  .productName {
-    font-size: 10pt;
-  }
-  
-  .productMainDescription {
-    font-size: 5pt;
-    line-height: 120%;
-  }
+	.productDivTitle {
+		width: 100%;
+		font-weight: 600;
+		font-size: 18pt;
+	}
 
-  .testimonials {
-    height: 68vw;
-  }
-  
-  .testimonials > div {
-    height: 60vw;
-  }
+	.productDivText {
+		font-size: 5pt;
+		line-height: 120%;
+	}
 
-  .testimonialHeader {
-    width: 100%;
-  }
+	.productImageHolder {
+		height: 130vw;
+	}
 
-  .testimonialTitle {
-    width: fit-content;
-    font-size: 18pt;
-  }
-  
-  .testimonialInfo {
-    width: 100%;
-    font-size: 5pt;
-  }
-  
-  .mainTestimonial {
-    height: 32vw;
-  }
-  
-  .testimonialBody {
-    width: 58%;
-    height: 30vw;
-  }
-  
-  .testimonialBody > div {
-    width: 98%;
-    height: 24vw;
-    margin: auto 0;
-  }
-  
-  .clientPicture {
-    width: 15pt;
-    height: 15pt;
-    background-size: 10pt;
-  }
-  
-  .testimonialText {
-    width: fit-content;
-    height: 78%;
-    justify-content: space-around;
-  }
-  
-  .testimony {
-    font-size: 5pt;
-    line-height: 120%;
-    width: 80%;
-  }
-  
-  .clientName {
-    font-size: 7pt;
-    line-height: 120%;
-  }
-  
-  .clientDetails {
-    font-size: 5pt;
-    line-height: 120%;
-  }
-  
-  .testimonialGraphic {
-    width: 30%;
-    height: 24vw;
-    background-size: 75%;
-  }
-  
-  .contact {
-    height: 57vw;
-  }
-  
-  .contact > div {
-    width: 82%;
-    height: 40vw;
-  }
-  
-  .contact > div > div {
-    width: 98%;
-    height: 36vw;
-  }
+	.productPictures {
+		width: 40%;
+		margin: auto 0;
+		height: 30vw;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
 
-  .contact > div > div > .cta-wrapper {
-    width: 20%;
-    height: fit-content;
-  }
-  
-  .contactHeader {
-    width: 100%;
-  }
-  
-  .contactTitle {
-    width: fit-content;
-    font-size: 18pt;
-  }
+	.productPicturesBackground {
+		background-size: 75% 9vw;
+		width: 60%;
+		height: 26.3vw;
+		margin: 0;
+	}
 
-  .contactText {
-    width: 100%;
-    font-size: 5pt;
-  }
+	.productTextDescription {
+		height: 30vw;
+	}
 
-  .contactInfo {
-    width: 80%;
-    justify-content: space-around;
-    height: 28vw;
-  }
+	.productName {
+		font-size: 10pt;
+	}
 
-  .contactInfo > div {
-    height: 18vw;
-  }
+	.productMainDescription {
+		font-size: 5pt;
+		line-height: 120%;
+	}
 
-  .contactInfo > div > a {
-    font-size: 5pt;
-  }
-  
-  .contactInfo > div > a > img {
-    width: 12pt;
-    height: 12pt;
-  }
+	.testimonials {
+		height: 68vw;
+	}
 
-  .footer {
-    height: 90vw;
-  }
-  
-  .footer > div {
-    width: 90%;
-    height: 72vw;
-  }
+	.testimonials > div {
+		height: 60vw;
+	}
 
-  .footerContent{
-    height: 64vw;
-    margin: 0;
-    padding: 0;
-  }
+	.testimonialHeader {
+		width: 100%;
+	}
 
-  .welcomeContent {
-    height: 60vw;
-  }
+	.testimonialTitle {
+		width: fit-content;
+		font-size: 18pt;
+	}
 
-  .brandLogo {
-    width: 100%;
-    height: 20pt;
-  }
+	.testimonialInfo {
+		width: 100%;
+		font-size: 5pt;
+	}
 
-  .welcomeMessage {
-    height: 20vw;
-  }
-  
-  .welcomeMessage > h1 {
-    width: 100%;
-    font-size: 10pt;
-    height: fit-content;
-  }
+	.mainTestimonial {
+		height: 32vw;
+	}
 
-  .welcomeMessage > p {
-    font-size: 5pt;
-    height: fit-content;
-    line-height: 120%;
-    margin: auto 0;
-  }
+	.testimonialBody {
+		width: 58%;
+		height: 30vw;
+	}
 
-  .welcomeContent > .cta-wrapper {
-    width: 50%;
-    height: 6vw;
-  }
+	.testimonialBody > div {
+		width: 98%;
+		height: 24vw;
+		margin: auto 0;
+	}
 
-  .features {
-    width: 20%;
-    gap: 12px;
-  }
+	.clientPicture {
+		width: 15pt;
+		height: 15pt;
+		background-size: 10pt;
+	}
 
-  .socialsFoot  {
-    width: 16%;
-    gap: 12px;
-  }
+	.testimonialText {
+		width: fit-content;
+		height: 78%;
+		justify-content: space-around;
+	}
 
-  .features > h2 {
-    font-size: 10pt;
-  }
-  
-  .features > a {
-    font-size: 6pt;
-    line-height: 120%;;
-  }
-  
-  .socialsFoot > h2 {
-    font-size: 10pt;
-  }
+	.testimony {
+		font-size: 5pt;
+		line-height: 120%;
+		width: 80%;
+	}
 
-  .Address {
-    width: 16%;
-  }
-  
-  .socialsFoot > a {
-    font-size: 6pt;
-    text-align: center;
-  }
+	.clientName {
+		font-size: 7pt;
+		line-height: 120%;
+	}
 
-  .Address > a {
-    font-size: 8pt;
-    flex-direction: column;
-    align-items: center;
-  }
+	.clientDetails {
+		font-size: 5pt;
+		line-height: 120%;
+	}
 
-  .copyright > p {
-    font-size: 10pt;
-  }
+	.testimonialGraphic {
+		width: 30%;
+		height: 24vw;
+		background-size: 75%;
+	}
 
-  .order-modal__container {
-    width: 80%;
-    max-width: 80%;
-    padding: 1.25rem;
-  }
+	.contact {
+		height: 57vw;
+	}
 
-  .order-modal__header__title {
-    font-size: 12pt;
-    margin-bottom: 0.5rem;
-  }
+	.contact > div {
+		width: 82%;
+		height: 40vw;
+	}
 
-  .order-modal__header__close {
-    right: -4rem;
-    top: -0.3rem;
-    font-size: 22pt;
-  }
+	.contact > div > div {
+		width: 98%;
+		height: 36vw;
+	}
 
-  .order-modal__body {
-    width: 100%;
-  }
+	.contact > div > div > .cta-wrapper {
+		width: 20%;
+		height: fit-content;
+	}
 
-  .order-modal__body form {
-    grid-gap: 1rem 3rem;
-    width: 100%;
-  }
+	.contactHeader {
+		width: 100%;
+	}
 
-  .order-modal__body form .order-modal__textarea {
-    grid-column: 0.5 / -0.5;
-  }
+	.contactTitle {
+		width: fit-content;
+		font-size: 18pt;
+	}
 
-  .order-modal__body form input {
-    width: 75%;
-    height: 3vh;
-    font-size: 10pt;
-    padding: 2px;
-    margin: auto;
-  }
+	.contactText {
+		width: 100%;
+		font-size: 5pt;
+	}
 
-  .order-modal__body form label {
-    font-size: 10pt;
-    margin-left: 12%;
-  }
+	.contactInfo {
+		width: 80%;
+		justify-content: space-around;
+		height: 28vw;
+	}
 
-  .order-modal__body form textarea {
-    width: 75%;
-    font-size: 10pt;
-    padding: 2px;
-    margin: auto;
-  }
+	.contactInfo > div {
+		height: 18vw;
+	}
 
-  .order-modal__body form button.submit {
-    font-size: 15pt;
-    padding: 0.2rem 1rem;
-    width: 40%;
-  }
+	.contactInfo > div > a {
+		font-size: 5pt;
+	}
 
-  .order-modal__item-selection {
-    width: 82%;
-  }
+	.contactInfo > div > a > img {
+		width: 12pt;
+		height: 12pt;
+	}
 
-  .order-modal__item-selection .labels {
-    display: flex;
-    flex-direction: row;
-    width: 70vw;
-    justify-content: space-around;
-  }
-  
-  
-  .order-modal__item-selection .line-item {
-    gap: 5px;
-    grid-template-columns: 22vw 26vw 26vw 6vw;
-    -ms-grid-columns: 18vw 22vw 24vw 4vw;
-  }
-  
-  .order-modal__item-selection .line-item > select {
-    font-size: 8pt;
-    background-color: white;
-    height: 55%;
-    border-radius: 4px;
-    margin: auto 0;
-  }
-  
-  .order-modal__item-selection .line-item input {
-    width: 20%;
-  }
-  
-  .order-modal__item-selection .line-item__remove {
-    font-size: 3rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .order-modal__item-selection .add-line {
-    font-size: 3rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
+	.footer {
+		height: 90vw;
+	}
 
+	.footer > div {
+		width: 90%;
+		height: 72vw;
+	}
+
+	.footerContent {
+		height: 64vw;
+		margin: 0;
+		padding: 0;
+	}
+
+	.welcomeContent {
+		height: 60vw;
+	}
+
+	.brandLogo {
+		width: 100%;
+		height: 20pt;
+	}
+
+	.welcomeMessage {
+		height: 20vw;
+	}
+
+	.welcomeMessage > h1 {
+		width: 100%;
+		font-size: 10pt;
+		height: fit-content;
+	}
+
+	.welcomeMessage > p {
+		font-size: 5pt;
+		height: fit-content;
+		line-height: 120%;
+		margin: auto 0;
+	}
+
+	.welcomeContent > .cta-wrapper {
+		width: 50%;
+		height: 6vw;
+	}
+
+	.features {
+		width: 20%;
+		gap: 12px;
+	}
+
+	.socialsFoot {
+		width: 16%;
+		gap: 12px;
+	}
+
+	.features > h2 {
+		font-size: 10pt;
+	}
+
+	.features > a {
+		font-size: 6pt;
+		line-height: 120%;
+	}
+
+	.socialsFoot > h2 {
+		font-size: 10pt;
+	}
+
+	.Address {
+		width: 16%;
+	}
+
+	.socialsFoot > a {
+		font-size: 6pt;
+		text-align: center;
+	}
+
+	.Address > a {
+		font-size: 8pt;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.copyright > p {
+		font-size: 10pt;
+	}
+
+	.order-modal__body form button.submit {
+		font-size: 15pt;
+		padding: 0.2rem 1rem;
+		width: 40%;
+	}
+
+	.order-modal__item-selection input[type='number'] {
+		padding-left: 0.5rem;
+		padding-right: 0.3rem;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.order-modal__container {
+		width: 70%;
+		max-width: 70%;
+	}
+	.order-modal__body form button.submit {
+        font-size: 20pt;
+        /* padding: 0.2rem 1rem;
+        width: 40%; */
+	}
 }
